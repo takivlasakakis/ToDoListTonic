@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "64HL+WyEAHq5mxWx5SgSVpnwhkSWPOEjH3+wivezODE=",
+  "Source": "TodoListService",
+  "BasePath": "_content/TodoListService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "E:\\Work\\Learning\\ToDoList\\TodoListForTonic\\TodoListDapperDAL\\TodoListDapperDAL.csproj",
+      "Version": 2,
+      "Source": "TodoListDapperDAL",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

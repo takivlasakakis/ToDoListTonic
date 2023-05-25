@@ -1,0 +1,256 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Work\\Learning\\ToDoList\\TodoListForTonic\\TodoListForTonicServiceTests\\TodoListServiceTests.csproj": {}
+  },
+  "projects": {
+    "E:\\Work\\Learning\\ToDoList\\TodoListForTonic\\TodoListDapperDAL\\TodoListDapperDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Work\\Learning\\ToDoList\\TodoListForTonic\\TodoListDapperDAL\\TodoListDapperDAL.csproj",
+        "projectName": "TodoListDapperDAL",
+        "projectPath": "E:\\Work\\Learning\\ToDoList\\TodoListForTonic\\TodoListDapperDAL\\TodoListDapperDAL.csproj",
+        "packagesPath": "C:\\Users\\tvlasakakis\\.nuget\\packages\\",
+        "outputPath": "E:\\Work\\Learning\\ToDoList\\TodoListForTonic\\TodoListDapperDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tvlasakakis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "E:\\HomeMadeNugets": {},
+          "http://artifactory.pinpointtech.com:8081/artifactory/api/nuget/packages": {},
+          "http://teamcity.pinpointtech.com/guestAuth/app/nuget/v1/FeedService.svc": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0-preview.4.23259.5, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Work\\Learning\\ToDoList\\TodoListForTonic\\TodoListForTonicServiceTests\\TodoListServiceTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Work\\Learning\\ToDoList\\TodoListForTonic\\TodoListForTonicServiceTests\\TodoListServiceTests.csproj",
+        "projectName": "TodoListServiceTests",
+        "projectPath": "E:\\Work\\Learning\\ToDoList\\TodoListForTonic\\TodoListForTonicServiceTests\\TodoListServiceTests.csproj",
+        "packagesPath": "C:\\Users\\tvlasakakis\\.nuget\\packages\\",
+        "outputPath": "E:\\Work\\Learning\\ToDoList\\TodoListForTonic\\TodoListForTonicServiceTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tvlasakakis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "E:\\HomeMadeNugets": {},
+          "http://artifactory.pinpointtech.com:8081/artifactory/api/nuget/packages": {},
+          "http://teamcity.pinpointtech.com/guestAuth/app/nuget/v1/FeedService.svc": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Work\\Learning\\ToDoList\\TodoListForTonic\\TodoListForTonic\\TodoListService.csproj": {
+                "projectPath": "E:\\Work\\Learning\\ToDoList\\TodoListForTonic\\TodoListForTonic\\TodoListService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Work\\Learning\\ToDoList\\TodoListForTonic\\TodoListForTonic\\TodoListService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Work\\Learning\\ToDoList\\TodoListForTonic\\TodoListForTonic\\TodoListService.csproj",
+        "projectName": "TodoListService",
+        "projectPath": "E:\\Work\\Learning\\ToDoList\\TodoListForTonic\\TodoListForTonic\\TodoListService.csproj",
+        "packagesPath": "C:\\Users\\tvlasakakis\\.nuget\\packages\\",
+        "outputPath": "E:\\Work\\Learning\\ToDoList\\TodoListForTonic\\TodoListForTonic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tvlasakakis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "E:\\HomeMadeNugets": {},
+          "http://artifactory.pinpointtech.com:8081/artifactory/api/nuget/packages": {},
+          "http://teamcity.pinpointtech.com/guestAuth/app/nuget/v1/FeedService.svc": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Work\\Learning\\ToDoList\\TodoListForTonic\\TodoListDapperDAL\\TodoListDapperDAL.csproj": {
+                "projectPath": "E:\\Work\\Learning\\ToDoList\\TodoListForTonic\\TodoListDapperDAL\\TodoListDapperDAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
