@@ -28,6 +28,7 @@ public class TodoListControllerTests
 
 		ToDoItem saveDoItem = controller.SaveToDoItem(new Guid(), "test text string");
 		Assert.IsNotNull(saveDoItem);
-
+		Assert.AreEqual(saveDoItem.Text, _mockTodoListRepository.Object._todoItem.Text);
+		Assert.AreEqual(saveDoItem.ItemId, _mockTodoListRepository.Object._Guid);
 	}
 }
