@@ -28,4 +28,16 @@ BEGIN
         VALUES(@itemId, @itemText)
     END
 
+    ELSE
+    BEGIN
+        UPDATE [ToDos].[Items]
+        SET
+        Text = @itemText
+        WHERE
+        ItemId = @itemId
+    END
+
+    -- return saved data
+    EXEC
+    [ToDos].[getItems]
 END

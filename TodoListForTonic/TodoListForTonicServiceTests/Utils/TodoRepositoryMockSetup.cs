@@ -3,7 +3,7 @@
 internal class TodoRepositoryMockSetup : ITodoRepository
 {
 	public ToDoItem? _todoItem;
-	public static Guid _Guid;
+	public Guid _Guid;
 	TodoRepositoryMockSetup()
 	{
 		_Guid = Guid.NewGuid();
