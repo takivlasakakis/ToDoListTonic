@@ -17,11 +17,6 @@ AS
 BEGIN
 	SET NOCOUNT ON;
 
-    IF EXISTS (SELECT 1 FROM [ToDos].[Items] WHERE [ItemId] = @ItemId)
-    BEGIN;
-        THROW 50001, 'Duplicate Item', 1
-    END;
-
     IF NOT EXISTS (SELECT 1	FROM [ToDos].[Items] WHERE [ItemId] = @ItemId)
     BEGIN
         INSERT INTO [ToDos].[Items]([ItemId], [Text])
